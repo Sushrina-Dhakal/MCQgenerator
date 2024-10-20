@@ -1,0 +1,682 @@
+[
+    {
+        "topic": "what is cloud computing?",
+        "mcq": {
+            "easy": {
+                "question": "What is cloud computing?",
+                "options": [
+                    "A service that provides computing resources over the internet",
+                    "A type of software that runs on your local machine",
+                    "A way to store data locally on your device",
+                    "A method for networking computers"
+                ],
+                "correct_answer": "A service that provides computing resources over the internet"
+            },
+            "intermediate": {
+                "question": "Cloud computing is a paradigm of distributed computing that provides on-demand, utility-based computing services. Which of the following best describes this service model?",
+                "options": [
+                    "Remote Sensing",
+                    "Remote Invocation",
+                    "Cloud Computing",
+                    "Private Computing"
+                ],
+                "correct_answer": "Cloud Computing"
+            },
+            "hard": {
+                "question": "Cloud computing involves pooling physical resources and offering them as virtual resources. Which of the following best describes the primary benefit of this approach?",
+                "options": [
+                    "Reducing the number of physical hardware used",
+                    "Increasing physical hardware uses",
+                    "Decreasing the requirement for individual software purchases",
+                    "Improving data security"
+                ],
+                "correct_answer": "Reducing the number of physical hardware used"
+            }
+        }
+    },
+    {
+        "topic": "Cloud vs. on-premise",
+        "mcq": {
+            "easy": {
+                "question": "Where is on-premise software typically installed?",
+                "options": [
+                    "On a company's own servers",
+                    "On a cloud provider's servers",
+                    "On a public network",
+                    "In a data center"
+                ],
+                "correct_answer": "On a company's own servers"
+            },
+            "intermediate": {
+                "question": "What are the primary differences in cost between on-premise and cloud software?",
+                "options": [
+                    "On-premise software is cheaper to maintain, while cloud software has higher upfront costs",
+                    "On-premise software requires ongoing maintenance costs, while cloud software is subscription-based",
+                    "On-premise software has no maintenance costs, while cloud software requires ongoing payments",
+                    "On-premise software is free, while cloud software is paid per use"
+                ],
+                "correct_answer": "On-premise software requires ongoing maintenance costs, while cloud software is subscription-based"
+            },
+            "hard": {
+                "question": "Which of the following statements about cloud computing is true regarding data security?",
+                "options": [
+                    "Cloud providers are solely responsible for data security, and companies have no control over it",
+                    "Cloud providers offer better data security than on-premise solutions because of their multi-tenant infrastructure",
+                    "Cloud providers do not invest in security measures, making it less secure than on-premise solutions",
+                    "Cloud providers are not accountable for data security, and companies must handle it themselves"
+                ],
+                "correct_answer": "Cloud providers offer better data security than on-premise solutions because of their multi-tenant infrastructure"
+            }
+        }
+    },
+    {
+        "topic": "cloud computing services",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of Cloud Storage?",
+                "options": [
+                    "To provide virtualized computing resources",
+                    "To store and manage data over the internet",
+                    "To offer development and deployment tools",
+                    "To provide runtime environments"
+                ],
+                "correct_answer": "To store and manage data over the internet"
+            }
+        }
+    },
+    {
+        "topic": "use cases of IaaS, PaaS, SaaS",
+        "mcq": {
+            "easy": {
+                "question": "What type of cloud service is best suited for a company that needs extra network capacity but does not have the budget to buy more network hardware?",
+                "options": [
+                    "Infrastructure as a Service (IaaS)",
+                    "Platform as a Service (PaaS)",
+                    "Software as a Service (SaaS)",
+                    "None of the above"
+                ],
+                "correct_answer": "Infrastructure as a Service (IaaS)"
+            },
+            "intermediate": {
+                "question": "Which cloud service model allows developers to focus on building and scaling their applications without worrying about hardware?",
+                "options": [
+                    "Infrastructure as a Service (IaaS)",
+                    "Platform as a Service (PaaS)",
+                    "Software as a Service (SaaS)",
+                    "None of the above"
+                ],
+                "correct_answer": "Platform as a Service (PaaS)"
+            },
+            "hard": {
+                "question": "A company uses Google Drive for storing and sharing files. What type of cloud service model does Google Drive represent?",
+                "options": [
+                    "Infrastructure as a Service (IaaS)",
+                    "Platform as a Service (PaaS)",
+                    "Software as a Service (SaaS)",
+                    "None of the above"
+                ],
+                "correct_answer": "Software as a Service (SaaS)"
+            }
+        }
+    },
+    {
+        "topic": "FaaS",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of FaaS?",
+                "options": [
+                    "To manage and deploy entire applications",
+                    "To run and manage serverless functions",
+                    "To provide a platform for developing and deploying microservices",
+                    "To handle and manage database operations"
+                ],
+                "correct_answer": "To run and manage serverless functions"
+            },
+            "intermediate": {
+                "question": "What are the benefits of using FaaS?",
+                "options": [
+                    "Reduced infrastructure costs, improved scalability, and enhanced security",
+                    "Improved performance, reduced latency, and better resource utilization",
+                    "Enhanced reliability, increased flexibility, and better fault tolerance",
+                    "Better integration, improved collaboration, and enhanced data management"
+                ],
+                "correct_answer": "Reduced infrastructure costs, improved scalability, and enhanced security"
+            },
+            "hard": {
+                "question": "How does FaaS handle cold starts, and what are the implications for performance?",
+                "options": [
+                    "Cold starts are handled by pre-warming functions, which improves performance by reducing latency.",
+                    "Cold starts are handled by dynamic scaling, which ensures consistent performance.",
+                    "Cold starts are handled by caching, which reduces the impact on performance.",
+                    "Cold starts are handled by load balancing, which distributes the load efficiently."
+                ],
+                "correct_answer": "Cold starts are handled by pre-warming functions, which improves performance by reducing latency."
+            }
+        }
+    },
+    {
+        "topic": "Cloud Deployment Models",
+        "mcq": {
+            "easy": {
+                "question": "Which of the following is a common deployment model in cloud computing?",
+                "options": [
+                    "Public",
+                    "Private",
+                    "Hybrid",
+                    "Community"
+                ],
+                "correct_answer": "Public"
+            },
+            "intermediate": {
+                "question": "A group of churches with similar mission and security concerns might opt for which of the following cloud deployment models?",
+                "options": [
+                    "Public",
+                    "Private",
+                    "Hybrid",
+                    "Community"
+                ],
+                "correct_answer": "Community"
+            },
+            "hard": {
+                "question": "Which deployment model involves a combination of public and private clouds, allowing for greater flexibility and control?",
+                "options": [
+                    "Public",
+                    "Private",
+                    "Hybrid",
+                    "Community"
+                ],
+                "correct_answer": "Hybrid"
+            }
+        }
+    },
+    {
+        "topic": "Public Cloud vs Private Cloud",
+        "mcq": {
+            "easy": {
+                "question": "Which of the following is a characteristic of a public cloud?",
+                "options": [
+                    "It is owned and operated by a third-party provider",
+                    "It is only accessible to a single organization",
+                    "It provides high security to the data stored",
+                    "It is not scalable"
+                ],
+                "correct_answer": "It is owned and operated by a third-party provider"
+            },
+            "intermediate": {
+                "question": "What is the main difference between public and private clouds in terms of resource sharing?",
+                "options": [
+                    "Public clouds share resources among multiple users, while private clouds do not",
+                    "Public clouds do not share resources, while private clouds do",
+                    "Public clouds are more secure, while private clouds are less secure",
+                    "Public clouds are more scalable, while private clouds are less scalable"
+                ],
+                "correct_answer": "Public clouds share resources among multiple users, while private clouds do not"
+            },
+            "hard": {
+                "question": "Which of the following is a benefit that both public and private clouds share?",
+                "options": [
+                    "Cost savings",
+                    "Scalability",
+                    "Reliability",
+                    "Improved collaboration"
+                ],
+                "correct_answer": "Cost savings"
+            }
+        }
+    },
+    {
+        "topic": "Hybrid cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is a hybrid cloud?",
+                "options": [
+                    "A combination of public and private clouds",
+                    "A single cloud provider's services",
+                    "A cloud service for small businesses",
+                    "A type of virtualization"
+                ],
+                "correct_answer": "A combination of public and private clouds"
+            },
+            "intermediate": {
+                "question": "Which of the following is a benefit of using a hybrid cloud?",
+                "options": [
+                    "Improved security",
+                    "Enhanced scalability",
+                    "Increased cost savings",
+                    "Better data management"
+                ],
+                "correct_answer": "Enhanced scalability"
+            },
+            "hard": {
+                "question": "How does a hybrid cloud manage data and applications across different environments?",
+                "options": [
+                    "By using a single management console",
+                    "By integrating public and private cloud services",
+                    "By using a third-party service",
+                    "By creating a virtual network"
+                ],
+                "correct_answer": "By integrating public and private cloud services"
+            }
+        }
+    },
+    {
+        "topic": "Community cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is a Community Cloud?",
+                "options": [
+                    "A cloud shared by a single organization",
+                    "A cloud shared by multiple organizations with similar interests",
+                    "A cloud used for public services",
+                    "A cloud used for private data storage"
+                ],
+                "correct_answer": "A cloud shared by multiple organizations with similar interests"
+            },
+            "intermediate": {
+                "question": "Which of the following is a key characteristic of a Community Cloud?",
+                "options": [
+                    "It is managed by a single organization",
+                    "It is shared by multiple organizations with similar interests and is managed by them collectively",
+                    "It is used for public services",
+                    "It is used for private data storage"
+                ],
+                "correct_answer": "It is shared by multiple organizations with similar interests and is managed by them collectively"
+            },
+            "hard": {
+                "question": "How does a Community Cloud differ from a Public Cloud in terms of management and access?",
+                "options": [
+                    "A Community Cloud is managed by a single organization and has restricted access, while a Public Cloud is managed by multiple organizations and has open access",
+                    "A Community Cloud is managed by multiple organizations and has restricted access, while a Public Cloud is managed by a single organization and has open access",
+                    "A Community Cloud is used for public services and has open access, while a Public Cloud is used for private data storage and has restricted access",
+                    "A Community Cloud is used for private data storage and has restricted access, while a Public Cloud is used for public services and has open access"
+                ],
+                "correct_answer": "A Community Cloud is managed by multiple organizations and has restricted access, while a Public Cloud is managed by a single organization and has open access"
+            }
+        }
+    },
+    {
+        "topic": "Regulations on the cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary purpose of the General Data Protection Regulation (GDPR) in the context of cloud computing?",
+                "options": [
+                    "To ensure data sovereignty",
+                    "To enforce data encryption",
+                    "To protect user data and privacy",
+                    "To promote cloud service interoperability"
+                ],
+                "correct_answer": "To protect user data and privacy"
+            },
+            "intermediate": {
+                "question": "Which of the following regulations specifically addresses the security and compliance requirements for cloud service providers?",
+                "options": [
+                    "HIPAA (Health Insurance Portability and Accountability Act)",
+                    "PCI-DSS (Payment Card Industry Data Security Standard)",
+                    "SOC 2 (Service Organization Control 2)",
+                    "NIST (National Institute of Standards and Technology) Cloud Security Guidelines"
+                ],
+                "correct_answer": "NIST (National Institute of Standards and Technology) Cloud Security Guidelines"
+            },
+            "hard": {
+                "question": "What is the term for the process of ensuring that cloud services comply with local laws and regulations, particularly in regions with stringent data protection policies?",
+                "options": [
+                    "Cloud localization",
+                    "Data residency",
+                    "Regulatory compliance mapping",
+                    "Cloud sovereignty"
+                ],
+                "correct_answer": "Regulatory compliance mapping"
+            }
+        }
+    },
+    {
+        "topic": "General Data Privacy Regulation(GDPR) in cloud",
+        "mcq": {
+            "easy": {
+                "question": "To which of the following situations does the GDPR not apply?",
+                "options": [
+                    "Facebook storing personal data of a user living in Dublin",
+                    "The US Postal Service having registered digital data from a user living in Belgium",
+                    "Google storing emails of a user in Stockholm",
+                    "Facebook storing data of my friend Michael in San Francisco"
+                ],
+                "correct_answer": "4. Facebook storing data of my friend Michael in San Francisco"
+            },
+            "intermediate": {
+                "question": "In case of a data breach, GDPR requires the notification to be sent to authorities within?",
+                "options": [
+                    "72 hours",
+                    "42 hours",
+                    "24 hours",
+                    "8 hours"
+                ],
+                "correct_answer": "72 hours"
+            },
+            "hard": {
+                "question": "What are the penalties levied for non-compliance to GDPR for organizations?",
+                "options": [
+                    "Higher of EUR 20,000,000 or up to 2% of the worldwide annual turnover",
+                    "Higher of EUR 20,000,000 or up to 4% of the worldwide annual turnover",
+                    "Higher of EUR 40,000,000 or up to 2% of the worldwide annual turnover",
+                    "Higher of EUR 40,000,000 or up to 4% of the worldwide annual turnover"
+                ],
+                "correct_answer": "Higher of EUR 20,000,000 or up to 4% of the worldwide annual turnover"
+            }
+        }
+    },
+    {
+        "topic": "Personal Data in cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary purpose of the GDPR in relation to personal data?",
+                "options": [
+                    "To ensure data security",
+                    "To protect user privacy",
+                    "To regulate data collection",
+                    "To enforce data storage"
+                ],
+                "correct_answer": "To protect user privacy"
+            },
+            "intermediate": {
+                "question": "Which of the following scenarios involves processing personal data in the capacity of a data controller?",
+                "options": [
+                    "Processing of ITC Infotech employee\u2019s data",
+                    "Processing of ITC Infotech customer\u2019s data",
+                    "Processing of ITC Infotech dependent\u2019s data",
+                    "Processing of external company data"
+                ],
+                "correct_answer": "Processing of ITC Infotech employee\u2019s data"
+            },
+            "hard": {
+                "question": "Under the GDPR, what is the timeframe for notifying authorities in case of a data breach?",
+                "options": [
+                    "Within 24 hours",
+                    "Within 72 hours",
+                    "Within 30 days",
+                    "Within 60 days"
+                ],
+                "correct_answer": "Within 72 hours"
+            }
+        }
+    },
+    {
+        "topic": "The big three cloud providers",
+        "mcq": {
+            "easy": {
+                "question": "Which of the following is a primary service offered by AWS?",
+                "options": [
+                    "Amazon S3",
+                    "AWS Lambda",
+                    "Amazon EC2",
+                    "AWS Redshift"
+                ],
+                "correct_answer": "Amazon EC2"
+            },
+            "intermediate": {
+                "question": "Which of the following is a key benefit of using Amazon S3 for storing data?",
+                "options": [
+                    "Unlimited storage capacity",
+                    "Low-latency data retrieval",
+                    "Automatic data encryption",
+                    "Real-time data analytics"
+                ],
+                "correct_answer": "Automatic data encryption"
+            },
+            "hard": {
+                "question": "Which AWS service can be used to process and analyze large datasets in a distributed computing environment?",
+                "options": [
+                    "Amazon S3",
+                    "AWS Lambda",
+                    "Amazon Redshift",
+                    "Amazon EMR"
+                ],
+                "correct_answer": "Amazon EMR"
+            }
+        }
+    },
+    {
+        "topic": "AWS",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of an Amazon S3 bucket?",
+                "options": [
+                    "To store relational databases",
+                    "To host web applications",
+                    "To store and serve files",
+                    "To manage network traffic"
+                ],
+                "correct_answer": "To store and serve files"
+            },
+            "intermediate": {
+                "question": "Which AWS service is used to manage access to AWS resources?",
+                "options": [
+                    "Amazon EC2",
+                    "Amazon S3",
+                    "AWS IAM",
+                    "Amazon RDS"
+                ],
+                "correct_answer": "AWS IAM"
+            },
+            "hard": {
+                "question": "How can you ensure that your RDS database can only be accessed using profile credentials specific to your EC2 instances via an authentication token?",
+                "options": [
+                    "Enable IAM DB Authentication.",
+                    "Configure SSL in your application to encrypt the database connection to RDS.",
+                    "Create an IAM Role and assign it to your EC2 instances which will grant exclusive access to your RDS instance.",
+                    "Use a combination of IAM and STS to restrict access to your RDS instance via a temporary token."
+                ],
+                "correct_answer": "Create an IAM Role and assign it to your EC2 instances which will grant exclusive access to your RDS instance."
+            }
+        }
+    },
+    {
+        "topic": "Microsoft Azure",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of Azure Active Directory (Azure AD)?",
+                "options": [
+                    "To manage virtual machines",
+                    "To handle user authentication and access control",
+                    "To provide cloud storage services",
+                    "To monitor network traffic"
+                ],
+                "correct_answer": "To handle user authentication and access control"
+            },
+            "intermediate": {
+                "question": "Which Azure service provides a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure?",
+                "options": [
+                    "Azure Functions",
+                    "Azure Logic Apps",
+                    "Azure Event Grid",
+                    "Azure Container Instances"
+                ],
+                "correct_answer": "Azure Functions"
+            },
+            "hard": {
+                "question": "What is the name of the Azure service that manages and monitors the allocation of computing resources, acting as the kernel of the Azure Service Platform?",
+                "options": [
+                    "Azure Fabric Controller",
+                    "Azure Orchestrator",
+                    "Azure Traffic Manager",
+                    "Azure Load Balancer"
+                ],
+                "correct_answer": "Azure Fabric Controller"
+            }
+        }
+    },
+    {
+        "topic": "Google Cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of Google Cloud Platform (GCP)?",
+                "options": [
+                    "To provide infrastructure as a service (IaaS)",
+                    "To provide platform as a service (PaaS)",
+                    "To provide software as a service (SaaS)",
+                    "To provide a suite of cloud computing services"
+                ],
+                "correct_answer": "To provide a suite of cloud computing services"
+            },
+            "intermediate": {
+                "question": "Which Google Cloud service is used for deploying and managing containerized applications?",
+                "options": [
+                    "Google Compute Engine",
+                    "Google Cloud Storage",
+                    "Google Kubernetes Engine (GKE)",
+                    "Google Cloud Load Balancing"
+                ],
+                "correct_answer": "Google Kubernetes Engine (GKE)"
+            },
+            "hard": {
+                "question": "What is the purpose of Cloud Composer in Google Cloud Platform?",
+                "options": [
+                    "To manage and monitor multi-step data pipelines using Apache Airflow",
+                    "To deploy and manage containerized applications using Kubernetes",
+                    "To provide a managed workflow orchestration service",
+                    "To handle the underlying infrastructure for machine learning models"
+                ],
+                "correct_answer": "To manage and monitor multi-step data pipelines using Apache Airflow"
+            }
+        }
+    },
+    {
+        "topic": "The risk of vendor lock-in in cloud",
+        "mcq": {
+            "easy": {
+                "question": "What is vendor lock-in in cloud computing?",
+                "options": [
+                    "The ability to switch cloud providers easily",
+                    "The inability to switch cloud providers without significant cost or effort",
+                    "The cost of using cloud services",
+                    "The speed of cloud service delivery"
+                ],
+                "correct_answer": "The inability to switch cloud providers without significant cost or effort"
+            },
+            "intermediate": {
+                "question": "Which of the following is a major concern related to cloud vendor lock-in?",
+                "options": [
+                    "Data breaches and cyber attacks",
+                    "Inability to switch providers when a vendor fails to meet SLAs",
+                    "Inability to move data and applications out of cloud environments",
+                    "All of the above"
+                ],
+                "correct_answer": "All of the above"
+            },
+            "hard": {
+                "question": "How can organizations avoid knowledge-based cloud vendor lock-in?",
+                "options": [
+                    "Building loosely coupled applications and maintaining data ownership",
+                    "Developing specific knowledge about multiple cloud service providers",
+                    "Implementing a multi-cloud strategy",
+                    "Using proprietary Faction Internetwork Exchange service"
+                ],
+                "correct_answer": "Implementing a multi-cloud strategy"
+            }
+        }
+    },
+    {
+        "topic": "Sage Maker",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary function of Amazon SageMaker?",
+                "options": [
+                    "To manage and deploy machine learning models",
+                    "To handle data engineering tasks",
+                    "To perform data analytics",
+                    "To manage cloud infrastructure"
+                ],
+                "correct_answer": "To manage and deploy machine learning models"
+            },
+            "intermediate": {
+                "question": "How can you use Amazon SageMaker to schedule tasks?",
+                "options": [
+                    "Using CloudWatch Events to trigger specific actions",
+                    "Using AWS Lambda to run code without infrastructure management",
+                    "Using S3 buckets to store and manage data",
+                    "Using EC2 instances to deploy and manage models"
+                ],
+                "correct_answer": "Using CloudWatch Events to trigger specific actions"
+            },
+            "hard": {
+                "question": "What is the purpose of using Amazon SageMaker Processing in a machine learning workflow?",
+                "options": [
+                    "To train and deploy machine learning models",
+                    "To perform data validation and feature engineering",
+                    "To manage and monitor model performance",
+                    "To handle data ingestion and preprocessing"
+                ],
+                "correct_answer": "To perform data validation and feature engineering"
+            }
+        }
+    },
+    {
+        "topic": "Nerd Wallet",
+        "mcq": {
+            "easy": {
+                "question": "What is the primary source of credit scores used by most lenders?",
+                "options": [
+                    "FICO model",
+                    "Proprietary scores",
+                    "Free scoring sites",
+                    "Credit card issuer's model"
+                ],
+                "correct_answer": "FICO model"
+            },
+            "intermediate": {
+                "question": "According to NerdWallet, how many Americans know that most consumers have more than three different credit scores?",
+                "options": [
+                    "9%",
+                    "55%",
+                    "75%",
+                    "90%"
+                ],
+                "correct_answer": "9%"
+            },
+            "hard": {
+                "question": "What is the significance of understanding when interest starts accruing on credit card purchases, as highlighted by NerdWallet's survey?",
+                "options": [
+                    "It affects the credit limit",
+                    "It influences the annual fee",
+                    "It determines the rewards earned",
+                    "It impacts the timing of interest charges and potential interest savings"
+                ],
+                "correct_answer": "It impacts the timing of interest charges and potential interest savings"
+            }
+        }
+    },
+    {
+        "topic": "Lush Migration in Cloud",
+        "mcq": {
+            "easy": {
+                "question": "Why do companies migrate their applications to the cloud?",
+                "options": [
+                    "To reduce costs and improve performance",
+                    "To increase security and compliance",
+                    "To enhance scalability and flexibility",
+                    "To improve data integrity and availability"
+                ],
+                "correct_answer": "To reduce costs and improve performance"
+            },
+            "intermediate": {
+                "question": "What is a crucial step in cloud migration planning?",
+                "options": [
+                    "Assessing the current infrastructure and applications",
+                    "Designing the cloud architecture",
+                    "Migrating the database servers",
+                    "Implementing the cloud-native tools"
+                ],
+                "correct_answer": "Assessing the current infrastructure and applications"
+            },
+            "hard": {
+                "question": "What is a significant concern when migrating a large database to the cloud?",
+                "options": [
+                    "Proper functionality of the database",
+                    "Connectivity issues between the database and application",
+                    "Data integrity during the transfer process",
+                    "Availability of the database after migration"
+                ],
+                "correct_answer": "Data integrity during the transfer process"
+            }
+        }
+    }
+]
